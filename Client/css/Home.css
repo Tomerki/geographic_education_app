@@ -1,0 +1,45 @@
+.home {
+    display: grid;
+    background-image: url('../photos/main-backgrond.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.home_page {
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.home_body {
+    margin-top: 20px;
+    padding: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -1px 4px 20px 0px rgba(176, 203, 243, 0.7);
+    background-color: rgb(245, 244, 243);
+    border-radius: 20px;
+
+}
+
+.home_title {
+    font-family: 'Poiret One', cursive;
+}
+
+
+.list-group {
+    font-size:24px;
+}
+
+.button-space {
+  margin-right: 10px; /* Adjust the margin-right value to control the spacing */
+}

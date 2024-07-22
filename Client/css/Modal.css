@@ -1,0 +1,15 @@
+/* all popup windows Design */
+
+
+.allModals {
+    position: absolute;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.leftModal {
+    position: absolute;
+    margin-top: 10%;
+    margin-left:5%;
+    width: 30%;
+}

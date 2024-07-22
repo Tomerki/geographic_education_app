@@ -1,0 +1,90 @@
+/* CSS File to Design the Login page and the register page */
+
+
+.login {
+    display: grid;
+    background-color: rgb(231, 222, 222);
+    background-image: url('../photos/app-background.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    overflow: auto;
+}
+
+.login_header {
+    color:beige
+}
+
+.login_page {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.login_body {
+    margin-top: 20px;
+    padding: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: -1px 4px 20px 0px rgba(176, 203, 243, 0.7);
+    background-color: rgb(245, 244, 243);
+    border-radius: 20px;
+
+}
+
+.login_body > h2 {
+    margin-bottom: 20px;
+}
+
+.login_header {
+    font-size: 60px;
+}
+
+.login_body_input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.login_body_input > input::placeholder{
+    text-align: center;
+    color:#a09797
+}
+
+.login_input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background-color: rgb(245, 244, 243);
+}
+
+.login_buttom {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+#notregistered {
+    margin-top: 25px;
+}
+
+.btn-outline-secondary {
+    color: rgb(52, 94, 94);
+    border-color: rgb(52, 94, 94);
+}
+
+#forRegister {
+    font-weight: bold;
+    font-size: 15pt;
+    color: #7c7c7c;
+}
